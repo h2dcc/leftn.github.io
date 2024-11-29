@@ -1,0 +1,8 @@
+/* custom.css */
+.hb-start-apps {
+  height: 480px !important;
+}
+
+.hb-start-apps::-webkit-scrollbar {
+  width: 0px !important;
+}
