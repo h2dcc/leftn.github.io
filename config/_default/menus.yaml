@@ -1,0 +1,128 @@
+main:
+  - name: About
+    url: https://hyruo.com/about
+    params:
+      icon:
+        vendor: bs
+        name: book
+
+apps:
+  - name: Hyruo Blog
+    url: https://hyruo.com
+    weight: 1
+    params:
+      icon:
+        vendor: simple
+        name: hugo
+
+  - name: Hyruo Status
+    url: https://status.hyruo.com
+    weight: 2
+    params:
+      icon:
+        vendor: simple
+        name: github
+
+  - name: Hyruo Tests
+    url: https://fosu.cc
+    weight: 12
+    params:
+      icon:
+        vendor: simple
+        name: hexo
+
+  - name: Hyruo Editor
+    url: https://editor.hyruo.com
+    weight: 4
+    params:
+      icon:
+        vendor: simple
+        name: markdown
+
+  - name: Hyruo Photo
+    url: https://photo.hyruo.com
+    weight: 7
+    params:
+      icon:
+        vendor: simple
+        name: instagram
+
+  - name: Hyruo Video
+    url: https://video.hyruo.com
+    weight: 7
+    params:
+      icon:
+        vendor: simple
+        name: youtube
+
+  - name: Hyruo Analysis
+    url: https://analysis.hyruo.com
+    weight: 3
+    params:
+      icon:
+        vendor: simple
+        name: google
+
+  - name: Hyruo Mirror2
+    url: https://backup.hyruo.com
+    weight: 10
+    params:
+      icon:
+        vendor: simple
+        name: oracle
+
+  - name: Hyruo Mirror
+    url: https://blog.hyruo.com
+    weight: 9
+    params:
+      icon:
+        vendor: simple
+        name: cloudflare
+
+  - name: Hyruo AiChat
+    url: https://chat.hyruo.com
+    weight: 4
+    params:
+      icon:
+        vendor: simple
+        name: openai
+
+  - name: Hyruo File
+    url: https://cloud.hyruo.com
+    weight: 5
+    params:
+      icon:
+        vendor: simple
+        name: box
+
+  - name: Hyruo Download
+    url: https://yun.hyruo.com
+    weight: 6
+    params:
+      icon:
+        vendor: simple
+        name: dropbox
+
+  - name: Hyruo Coding
+    url: https://note.leftn.com
+    weight: 4
+    params:
+      icon:
+        vendor: simple
+        name: git
+
+  - name: Hyruo Browser
+    url: https://web.ww6.us.kg
+    weight: 3
+    params:
+      icon:
+        vendor: simple
+        name: firefox
+
+  - name: Hyruo Reader
+    url: https://reader.hyruo.com
+    weight: 7
+    params:
+      icon:
+        vendor: simple
+        name: wikipedia

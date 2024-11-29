@@ -1,0 +1,13 @@
+baseURL: https://leftn.com
+copyright: Copyright © 2023-{year} [Leftn.com](https://leftn.com). All Rights Reserved.
+title: Leftn
+
+build:
+  writeStats: true
+
+taxonomies: []
+
+params:
+  hb:
+    background_image:
+      modern_format: webp

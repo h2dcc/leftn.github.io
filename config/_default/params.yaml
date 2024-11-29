@@ -1,0 +1,35 @@
+description: Leftn's Homepage by Hyruo.
+
+hb:
+  header:
+    socials:
+      zhihu: rpwi
+      sinaweibo: benovo
+      rss: https://hyruo.com/index.xml
+  theme_start:
+    search_input_text: Search
+    search_input_auto_focus: false
+    search_engines:
+      google:
+        weight: 2
+      bing:
+        weight: 1
+    #   baidu:
+    #     weight: 3
+    #   duckduckgo:
+    #     weight: 4
+    #   wikipedia:
+    #     disable: false
+    #   yahoo:
+    #     disable: false
+    #   yandex:
+    #     disable: false
+    #   sogou:
+    #     disable: false
+
+hugopress:
+  modules:
+    custom:
+      hooks:
+        head-end:
+          disable: false
