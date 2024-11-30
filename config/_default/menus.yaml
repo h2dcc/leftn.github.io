@@ -1,10 +1,10 @@
 main:
   - name: About
-    url: https://hyruo.com/about
+    url: https://hyruo.com/article/fastest-personal-navigation-website/
     params:
       icon:
-        vendor: bs
-        name: book
+        vendor: simple
+        name: readme
 
 apps:
   - name: Hyruo Blog
@@ -21,7 +21,7 @@ apps:
     params:
       icon:
         vendor: simple
-        name: github
+        name: linux
 
   - name: Hyruo Tests
     url: https://fosu.cc
@@ -61,7 +61,7 @@ apps:
     params:
       icon:
         vendor: simple
-        name: google
+        name: googleanalytics
 
   - name: Hyruo Mirror2
     url: https://backup.hyruo.com
@@ -79,7 +79,7 @@ apps:
         vendor: simple
         name: cloudflare
 
-  - name: Hyruo AiChat
+  - name: Hyruo Chat
     url: https://chat.hyruo.com
     weight: 4
     params:
@@ -126,3 +126,11 @@ apps:
       icon:
         vendor: simple
         name: wikipedia
+
+  - name: Hyruo Ai
+    url: https://ai.hyruo.com
+    weight: 7
+    params:
+      icon:
+        vendor: simple
+        name: ollama
