@@ -134,3 +134,11 @@ apps:
       icon:
         vendor: simple
         name: ollama
+
+  - name: Hyruo Feeds
+    url: https://feeeds.hyruo.com
+    weight: 8
+    params:
+      icon:
+        vendor: simple
+        name: buzzfeed
