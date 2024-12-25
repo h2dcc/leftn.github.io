@@ -15,6 +15,14 @@ apps:
         vendor: simple
         name: hugo
 
+  - name: Hyruo News
+    url: https://news.hyruo.com
+    weight: 1
+    params:
+      icon:
+        vendor: simple
+        name: feedly
+
   - name: Hyruo Status
     url: https://status.hyruo.com
     weight: 2
@@ -136,7 +144,7 @@ apps:
         name: ollama
 
   - name: Hyruo Feeds
-    url: https://feeeds.hyruo.com
+    url: https://feeds.hyruo.com
     weight: 8
     params:
       icon:
