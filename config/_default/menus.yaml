@@ -120,7 +120,7 @@ apps:
         name: git
 
   - name: Hyruo Browser
-    url: https://web.ww6.us.kg
+    url: https://web.fosu.cc
     weight: 3
     params:
       icon:
