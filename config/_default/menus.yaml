@@ -1,21 +1,21 @@
 main:
   - name: About
-    url: https://hyruo.com/article/fastest-personal-navigation-website/
+    url: https://lawtee.com/article/fastest-personal-navigation-website/
     params:
       icon:
         vendor: simple
         name: readme
 
 apps:
-  - name: Hyruo Blog
-    url: https://hyruo.com
+  - name: Lawtee Blog
+    url: https://Lawtee.com
     weight: 1
     params:
       icon:
         vendor: simple
         name: hugo
 
-  - name: Hyruo News
+  - name: Lawtee News
     url: https://news.hyruo.com
     weight: 1
     params:
@@ -23,7 +23,7 @@ apps:
         vendor: simple
         name: feedly
 
-  - name: Hyruo Status
+  - name: Lawtee Status
     url: https://status.hyruo.com
     weight: 2
     params:
@@ -31,7 +31,7 @@ apps:
         vendor: simple
         name: linux
 
-  - name: Hyruo Tests
+  - name: Lawtee Tests
     url: https://fosu.cc
     weight: 12
     params:
@@ -39,7 +39,7 @@ apps:
         vendor: simple
         name: hexo
 
-  - name: Hyruo Editor
+  - name: Lawtee Editor
     url: https://editor.hyruo.com
     weight: 4
     params:
@@ -47,7 +47,7 @@ apps:
         vendor: simple
         name: markdown
 
-  - name: Hyruo Photo
+  - name: Lawtee Photo
     url: https://photo.hyruo.com
     weight: 7
     params:
@@ -55,7 +55,7 @@ apps:
         vendor: simple
         name: instagram
 
-  - name: Hyruo Video
+  - name: Lawtee Video
     url: https://video.hyruo.com
     weight: 7
     params:
@@ -63,7 +63,7 @@ apps:
         vendor: simple
         name: youtube
 
-  - name: Hyruo Analysis
+  - name: Lawtee Analysis
     url: https://analysis.hyruo.com
     weight: 3
     params:
@@ -71,7 +71,7 @@ apps:
         vendor: simple
         name: googleanalytics
 
-  - name: Hyruo Mirror2
+  - name: Lawtee Mirror2
     url: https://backup.hyruo.com
     weight: 10
     params:
@@ -79,7 +79,7 @@ apps:
         vendor: simple
         name: oracle
 
-  - name: Hyruo Mirror
+  - name: Lawtee Mirror
     url: https://blog.hyruo.com
     weight: 9
     params:
@@ -87,7 +87,7 @@ apps:
         vendor: simple
         name: cloudflare
 
-  - name: Hyruo Chat
+  - name: Lawtee Chat
     url: https://chat.hyruo.com
     weight: 4
     params:
@@ -95,7 +95,7 @@ apps:
         vendor: simple
         name: openai
 
-  - name: Hyruo File
+  - name: Lawtee File
     url: https://cloud.hyruo.com
     weight: 5
     params:
@@ -103,7 +103,7 @@ apps:
         vendor: simple
         name: box
 
-  - name: Hyruo Download
+  - name: Lawtee Download
     url: https://yun.hyruo.com
     weight: 6
     params:
@@ -111,7 +111,7 @@ apps:
         vendor: simple
         name: dropbox
 
-  - name: Hyruo Coding
+  - name: Lawtee Coding
     url: https://note.leftn.com
     weight: 4
     params:
@@ -119,7 +119,7 @@ apps:
         vendor: simple
         name: git
 
-  - name: Hyruo Browser
+  - name: Lawtee Browser
     url: https://web.fosu.cc
     weight: 3
     params:
@@ -127,7 +127,7 @@ apps:
         vendor: simple
         name: firefox
 
-  - name: Hyruo Reader
+  - name: Lawtee Reader
     url: https://reader.hyruo.com
     weight: 7
     params:
@@ -135,7 +135,7 @@ apps:
         vendor: simple
         name: wikipedia
 
-  - name: Hyruo Ai
+  - name: Lawtee Ai
     url: https://ai.hyruo.com
     weight: 7
     params:
@@ -143,7 +143,7 @@ apps:
         vendor: simple
         name: ollama
 
-  - name: Hyruo Feeds
+  - name: Lawtee Feeds
     url: https://feeds.hyruo.com
     weight: 8
     params:
