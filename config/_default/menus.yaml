@@ -63,8 +63,8 @@ apps:
         vendor: simple
         name: youtube
 
-  - name: Lawtee Analysis
-    url: https://analysis.hyruo.com
+  - name: Lawtee Stats
+    url: https://stats.lawtee.com
     weight: 3
     params:
       icon:
@@ -80,7 +80,7 @@ apps:
         name: oracle
 
   - name: Lawtee Mirror
-    url: https://blog.hyruo.com
+    url: https://blog.lawtee.com
     weight: 9
     params:
       icon:
