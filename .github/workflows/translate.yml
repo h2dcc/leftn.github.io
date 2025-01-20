@@ -35,7 +35,14 @@ jobs:
         run: |
           python translate.py
 
-      # 5. 提交更改
+      - name: Debug GH_PAT
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "GH_PAT is empty!"
+          else
+            echo "GH_PAT is set."
+          fi
+
       - name: Commit and push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}  # 从 GitHub Secrets 获取 PAT
