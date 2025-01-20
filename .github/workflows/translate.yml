@@ -39,11 +39,12 @@ jobs:
 
       # 5. 提交更改
       - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用默认的 GITHUB_TOKEN
-        run: |
-          git config --global user.name "h2dcc"
-          git config --global user.email "hechujie@live.com"
-          git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-translate Markdown files"
-          git push
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            execSync('git config --global user.name "h2dcc"');
+            execSync('git config --global user.email "hechujie@live.com"');
+            execSync('git add .');
+            execSync('git diff --quiet && git diff --staged --quiet || git commit -m "Auto-translate Markdown files"');
+            execSync('git push');
