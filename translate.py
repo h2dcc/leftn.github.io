@@ -3,8 +3,8 @@ import re
 from openai import OpenAI
 
 # 配置
-API_KEY = ""  # 从环境变量中获取 API 密钥
-CONTENT_DIR = "d:/hugo/lawtee.github.io/content/posts"  # 相对于仓库根目录的路径
+API_KEY = os.getenv("DEEPSEEK_API_KEY")  # 从环境变量中获取 API 密钥
+CONTENT_DIR = "content/posts"  # 相对于仓库根目录的路径
 MAX_TOKENS = 8192  # API的最大token限制
 CHUNK_SIZE = 6000  # 每块的最大token数量（根据实际情况调整）
 
@@ -66,10 +66,15 @@ def process_front_matter(content):
 
 # 遍历content目录
 for root, dirs, files in os.walk(CONTENT_DIR):
+    print(f"当前目录：{root}")  # 打印当前目录
+    print(f"文件列表：{files}")  # 打印文件列表
+
     # 检查是否存在index.md但不存在index.en.md
     if "index.md" in files and "index.en.md" not in files:
         index_md_path = os.path.join(root, "index.md")
         index_en_md_path = os.path.join(root, "index.en.md")
+
+        print(f"找到需要翻译的文件：{index_md_path}")  # 打印找到的文件
 
         # 读取index.md内容
         with open(index_md_path, "r", encoding="utf-8") as f:
