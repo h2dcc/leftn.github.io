@@ -37,22 +37,13 @@ jobs:
         run: |
           python translate.py
 
-      # 5. 调试 GH_PAT
-      - name: Debug GH_PAT
-        run: |
-          if [ -z "$GH_PAT" ]; then
-            echo "GH_PAT is empty!"
-          else
-            echo "GH_PAT is set."
-          fi
-
-      # 6. 提交更改
+      # 5. 提交更改
       - name: Commit and push changes
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}  # 从 GitHub Secrets 获取 PAT
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用默认的 GITHUB_TOKEN
         run: |
           git config --global user.name "h2dcc"
           git config --global user.email "hechujie@live.com"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-translate Markdown files"
-          git push "https://$GH_PAT@github.com/h2dcc/leftn.github.io.git" HEAD:master
+          git push
