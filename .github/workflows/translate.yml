@@ -37,9 +37,11 @@ jobs:
 
       # 5. 提交更改
       - name: Commit and push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # 从 GitHub Secrets 获取 PAT
         run: |
           git config --global user.name "h2dcc"
           git config --global user.email "hechujie@live.com"
           git add .
-          git commit -m "Auto-translate Markdown files"
-          git push
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-translate Markdown files"
+          git push "https://$GH_PAT@github.com/h2dcc/leftn.github.io.git" HEAD:master
