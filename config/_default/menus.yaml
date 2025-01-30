@@ -112,7 +112,7 @@ apps:
         name: dropbox
 
   - name: Lawtee Coding
-    url: https://note.leftn.com
+    url: https://note.hyruo.com
     weight: 4
     params:
       icon:
