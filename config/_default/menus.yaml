@@ -17,7 +17,7 @@ apps:
 
   - name: Lawtee News
     url: https://news.hyruo.com
-    weight: 1
+    weight: 2
     params:
       icon:
         vendor: simple
@@ -25,7 +25,7 @@ apps:
 
   - name: Lawtee Status
     url: https://status.hyruo.com
-    weight: 2
+    weight: 3
     params:
       icon:
         vendor: simple
@@ -87,8 +87,8 @@ apps:
         vendor: simple
         name: cloudflare
 
-  - name: Lawtee Chat
-    url: https://chat.hyruo.com
+  - name: Lawtee Search
+    url: https://search.hyruo.com
     weight: 4
     params:
       icon:
