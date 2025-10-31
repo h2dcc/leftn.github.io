@@ -4,8 +4,7 @@ hb:
   header:
     socials:
       zhihu: rpwi
-      sinaweibo: benovo
-      rss: https://hyruo.com/index.xml
+      rss: https://lawtee.com/index.xml
   theme_start:
     search_input_text: Search
     search_input_auto_focus: false
